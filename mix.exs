@@ -36,7 +36,7 @@ defmodule Export.Mixfile do
 
   defp deps() do
     [
-      {:erlport, "~> 0.10"},
+      {:erlport, git: "https://github.com/miXwui/erlport.git"},
       {:ex_doc, ">= 0.0.0", only: :dev},
     ]
   end
